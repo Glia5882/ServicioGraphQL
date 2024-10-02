@@ -11,6 +11,6 @@ type Producto {
 }
 
 type Mutation {
-  createProducto(nombre: String!, descripcion: String!, precio: Float!): Producto
+  createProducto(nombre: String!, descripcion: String!, precio: Float!, formato: String!): Producto
 }
 
